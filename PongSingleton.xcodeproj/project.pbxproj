@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		02347A0B1A8B5B8000E1EBC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02347A0A1A8B5B8000E1EBC0 /* AppDelegate.swift */; };
-		02347A0D1A8B5B8000E1EBC0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 02347A0C1A8B5B8000E1EBC0 /* GameScene.sks */; };
 		02347A0F1A8B5B8000E1EBC0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02347A0E1A8B5B8000E1EBC0 /* GameScene.swift */; };
 		02347A111A8B5B8000E1EBC0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02347A101A8B5B8000E1EBC0 /* GameViewController.swift */; };
 		02347A141A8B5B8000E1EBC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02347A121A8B5B8000E1EBC0 /* Main.storyboard */; };
 		02347A161A8B5B8000E1EBC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02347A151A8B5B8000E1EBC0 /* Images.xcassets */; };
 		02347A191A8B5B8000E1EBC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02347A171A8B5B8000E1EBC0 /* LaunchScreen.xib */; };
 		02347A251A8B5B8000E1EBC0 /* PongSingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02347A241A8B5B8000E1EBC0 /* PongSingletonTests.swift */; };
+		02347A301A8B5BD000E1EBC0 /* pong-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 02347A2E1A8B5BD000E1EBC0 /* pong-background.png */; };
+		02347A311A8B5BD000E1EBC0 /* player-pong.png in Resources */ = {isa = PBXBuildFile; fileRef = 02347A2F1A8B5BD000E1EBC0 /* player-pong.png */; };
+		02347A331A8B5C0F00E1EBC0 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02347A321A8B5C0F00E1EBC0 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,6 @@
 		02347A051A8B5B8000E1EBC0 /* PongSingleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PongSingleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02347A091A8B5B8000E1EBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02347A0A1A8B5B8000E1EBC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02347A0C1A8B5B8000E1EBC0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		02347A0E1A8B5B8000E1EBC0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		02347A101A8B5B8000E1EBC0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		02347A131A8B5B8000E1EBC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +41,9 @@
 		02347A1E1A8B5B8000E1EBC0 /* PongSingletonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongSingletonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02347A231A8B5B8000E1EBC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02347A241A8B5B8000E1EBC0 /* PongSingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongSingletonTests.swift; sourceTree = "<group>"; };
+		02347A2E1A8B5BD000E1EBC0 /* pong-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pong-background.png"; sourceTree = "<group>"; };
+		02347A2F1A8B5BD000E1EBC0 /* player-pong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player-pong.png"; sourceTree = "<group>"; };
+		02347A321A8B5C0F00E1EBC0 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				02347A0A1A8B5B8000E1EBC0 /* AppDelegate.swift */,
-				02347A0C1A8B5B8000E1EBC0 /* GameScene.sks */,
+				02347A321A8B5C0F00E1EBC0 /* Singleton.swift */,
 				02347A0E1A8B5B8000E1EBC0 /* GameScene.swift */,
 				02347A101A8B5B8000E1EBC0 /* GameViewController.swift */,
 				02347A121A8B5B8000E1EBC0 /* Main.storyboard */,
 				02347A151A8B5B8000E1EBC0 /* Images.xcassets */,
 				02347A171A8B5B8000E1EBC0 /* LaunchScreen.xib */,
+				02347A2E1A8B5BD000E1EBC0 /* pong-background.png */,
+				02347A2F1A8B5BD000E1EBC0 /* player-pong.png */,
 				02347A081A8B5B8000E1EBC0 /* Supporting Files */,
 			);
 			path = PongSingleton;
@@ -200,8 +206,9 @@
 			files = (
 				02347A191A8B5B8000E1EBC0 /* LaunchScreen.xib in Resources */,
 				02347A161A8B5B8000E1EBC0 /* Images.xcassets in Resources */,
-				02347A0D1A8B5B8000E1EBC0 /* GameScene.sks in Resources */,
 				02347A141A8B5B8000E1EBC0 /* Main.storyboard in Resources */,
+				02347A311A8B5BD000E1EBC0 /* player-pong.png in Resources */,
+				02347A301A8B5BD000E1EBC0 /* pong-background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02347A0F1A8B5B8000E1EBC0 /* GameScene.swift in Sources */,
+				02347A331A8B5C0F00E1EBC0 /* Singleton.swift in Sources */,
 				02347A111A8B5B8000E1EBC0 /* GameViewController.swift in Sources */,
 				02347A0B1A8B5B8000E1EBC0 /* AppDelegate.swift in Sources */,
 			);
